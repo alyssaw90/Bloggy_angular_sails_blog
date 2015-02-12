@@ -11,7 +11,6 @@
  */
 
 module.exports = {
-
   connections:{
       myMongoDbServerProd: {
         adapter: 'sails-mongo',
@@ -21,5 +20,4 @@ module.exports = {
   models:{
     connection: 'myMongoDbServerProd'
   }
-
 };
